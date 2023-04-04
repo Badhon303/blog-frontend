@@ -8,7 +8,7 @@ const AuthorInfo = ({ article }) => {
     <div className="flex items-center my-4">
       <div className="rounded-lg mr-2 overflow-hidden">
         <Image
-          src={`https://retech-blog.onrender.com${article.attributes.users_permissions_user.data.attributes.image.data.attributes.formats.thumbnail.url}`}
+          src={`${urlBackend}${article.attributes.users_permissions_user.data.attributes.image.data.attributes.formats.thumbnail.url}`}
           height={40}
           width={40}
         />
