@@ -13,7 +13,7 @@ const slug = ({ article, notFound = false }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="my-12 grid md: grid-cols-3 gap-12">
+      <div className="my-12 grid grid-cols-1 md:grid-cols-3 gap-12">
         <div className="col-span-2">
           <h1 className="text-3xl font-bold py-2">
             {article.attributes.Title}

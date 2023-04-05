@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Footer = () => {
   return (
-    <footer className="mt-12 fixed bottom-0 left-0 bg-white w-full">
+    <footer className="mt-12 md:fixed bottom-0 left-0 bg-white w-full">
       <div className="container mx-auto flex items-center flex-col md:flex-row py-8">
         <a
           href="/"

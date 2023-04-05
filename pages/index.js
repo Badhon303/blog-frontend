@@ -21,14 +21,14 @@ export default function Home({ categories, articles }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <div>
         <Tabs
           categories={categories.items}
           handleOnSearch={debounce(handleSearch, 500)}
         />
         <ArticleList articles={articles.items} />
         <Pagination page={page} pageCount={pageCount} />
-      </main>
+      </div>
     </>
   )
 }

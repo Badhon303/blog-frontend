@@ -11,17 +11,19 @@ const Navbar = () => {
           <span className="font-bold ml-2 text-primary">Blog App</span>
         </div>
       </Link>
-      <ul className="flex items-center">
-        <li className="mr-6 font-medium text-gray-600">
-          <a href="#">About</a>
-        </li>
-        <li className="mr-6 font-medium text-gray-600">
-          <a href="#">Contact</a>
-        </li>
-        <li className="mr-6 font-medium text-gray-600">
-          <a href="#">Author</a>
-        </li>
-      </ul>
+      <div className="hidden md:block">
+        <ul className="flex items-center">
+          <li className="mr-6 font-medium text-gray-600">
+            <a href="#">About</a>
+          </li>
+          <li className="mr-6 font-medium text-gray-600">
+            <a href="#">Contact</a>
+          </li>
+          <li className="mr-6 font-medium text-gray-600">
+            <a href="#">Author</a>
+          </li>
+        </ul>
+      </div>
       <ul className="flex items-center">
         <li className="mr-6 font-medium text-gray-600">
           <a href="#" className="hover:text-gray-400">

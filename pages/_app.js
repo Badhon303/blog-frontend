@@ -6,7 +6,7 @@ import NextNProgress from "nextjs-progressbar"
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <div className="container mx-auto font-sans">
+      <div className="p-2 container mx-auto font-sans">
         <NextNProgress color="#53BD95" />
         <Navbar />
         <main className="pb-32">
