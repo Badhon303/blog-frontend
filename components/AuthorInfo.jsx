@@ -1,5 +1,4 @@
 import React from "react"
-import Image from "next/image"
 import { formatDate } from "../utils"
 import { urlBackend } from "../api"
 
@@ -7,8 +6,9 @@ const AuthorInfo = ({ article }) => {
   return (
     <div className="flex items-center my-4">
       <div className="rounded-lg mr-2 overflow-hidden">
-        <Image
+        <img
           src={`${urlBackend}${article.attributes.users_permissions_user.data.attributes.image.data.attributes.formats.thumbnail.url}`}
+          alt="author Info"
           height={40}
           width={40}
         />
